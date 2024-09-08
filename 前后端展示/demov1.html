@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload and Processing</title>
+    <style>
+        #result img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Image for Segmentation</h1>
+    <input type="file" id="fileInput" accept="image/*">
+    <div id="preview">
+        <h2>Selected Image:</h2>
+        <img id="imagePreview" src="" alt="Image Preview">
+    </div>
+    <button id="uploadButton">Upload Image</button>
+    <div id="result">
+        <h2>Processed Image:</h2>
+        <img id="resultImage" src="" alt="Result Image">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
